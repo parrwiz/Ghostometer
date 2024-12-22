@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Ghostometer",
+    "version": "1.0",
+    "description":"Tired of tracking rejections? I am too but this extention may make it easier.",
+    "permissions":["storage"],
+    "action":{
+        "default_popup":"popup.html"
+    }
+    
+}

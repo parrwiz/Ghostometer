@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghostometer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Track how many times are you ghosted!</h1>
+        <!--new Application-->
+        <div class="add-applicaiton">
+            <h2>Applied again?</h2>
+            <form id="applicationForm">
+                <input type="text" id="companyName" placeholder="Her Name" required>
+                <input type="'url" id="jobLink" placeholder="Her link" required>
+                <button type="submit">Start Praying</button>
+            </form>
+        </div>
+
+            <!--Navigation-->
+            <div class="tabs">
+                
+                <button class="tab-btn active" data-tab="inProgress">Still Hoping</button>
+                <button class="tab-btn" data-tab="ghosted">Start Crying</button>
+                <button class="tab-btn" data-tab="rejected">She's gone!</button>
+                <button class="tab-btn" data-tab="interview">Start Praying!</button>   
+                <button class="tab-btn" data-tab="offers">You did it!</button> 
+        
+            </div>
+
+
+            <div class="tab-content">
+                <div id="inProgress" class="tab-pane active">
+                  <div class="applications-list"></div>
+                </div>
+                <div id="ghosted" class="tab-pane">
+                  <div class="applications-list"></div>
+                </div>
+                <div id="rejected" class="tab-pane">
+                  <div class="applications-list"></div>
+                </div>
+                <div id="interview" class="tab-pane">
+                  <div class="applications-list"></div>
+                </div>
+                <div id="offers" class="tab-pane">
+                  <div class="applications-list"></div>
+                </div>
+              </div>
+
+
+
+
+
+    </div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
